@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/hello", (req, res) => {
-    res.send("Hello World!")
+    res.send("Hello World! updated")
 })
 
 console.log()
